@@ -1,7 +1,7 @@
 language: c
 compiler: gcc
 before_script: 
-   - sudo apt-get install -qq build-essential bison flex gettext libncurses5-dev texinfo autoconf automake libtool
+   - sudo apt-get install -qq build-essential bc bison flex gettext libncurses5-dev texinfo autoconf automake libtool
    - git submodule init
    - git submodule update
 script: make wifisd_defconfig; make
