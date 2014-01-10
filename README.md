@@ -8,7 +8,7 @@ To build your own image on Ubuntu/RHEL/Centos derivatives:
 ```bash
 # install buildroot dependencies (this list may be incomplete - contributions welcome)
 # Using apt-get:
-sudo apt-get install build-essential bison flex gettext libncurses5-dev texinfo autoconf automake libtool
+sudo apt-get install build-essential bc bison flex gettext libncurses5-dev texinfo autoconf automake libtool
 # OR using Yum:
 sudo yum install subversion make gcc ncurses-devel bison flex gawk bc vim-common
 
